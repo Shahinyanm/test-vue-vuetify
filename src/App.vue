@@ -1,19 +1,19 @@
 <template>
   <v-app>
     <v-main class="fill-height">
-      <login-page/>
+      <user-register/>
     </v-main>
   </v-app>
 </template>
 
 <script>
-import LoginPage from "@/components/Login.vue";
+import UserRegister from "@/components/UserRegister";
 
 export default {
   name: 'App',
 
   components: {
-    LoginPage,
+    UserRegister,
   },
 
   data: () => ({
